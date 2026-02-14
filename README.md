@@ -12,7 +12,7 @@ VaultLock is a secure, offline password manager built with Python and PyQt6/QML,
 - **AES-256 Encryption:** All sensitive fields (passwords, notes) are encrypted using Fernet (AES-128 CBC + HMAC) derived from your master password.
 - **Argon2 Hashing:** Master password verification uses Argon2id, making brute-force attacks computationally expensive.
 - **Windows 11 Integration:** Support for Mica Alt backdrop effects, dark mode, and seamless window integration.
-- **Autofill & Clipboard Security:** Secure password generation and auto-clearing clipboard functionality.
+- **Clipboard Security:** Secure password generation and auto-clearing clipboard functionality.
 - **Organization:** Group credentials into folders, mark favorites, and search instantly.
 - **Logo Fetching:** Automatically fetches and caches high-res logos.
 
@@ -41,3 +41,4 @@ VaultLock is a secure, offline password manager built with Python and PyQt6/QML,
 ```bash
 git clone https://github.com/Nirjar26/VaultLock---Password-Manager.git
 cd VaultLock---Password-Manager
+
