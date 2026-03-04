@@ -2,6 +2,8 @@
 
 🔐 Secure offline password manager built with Python and Qt, featuring zero-knowledge architecture, AES encryption, and Argon2 hashing.
 
+<img width="1918" height="988" alt="VaultLock App" src="https://github.com/user-attachments/assets/8bcc3f01-c398-4d71-bae1-aa8dc5e8643c" />
+
 ---
 
 ## Overview
@@ -33,6 +35,7 @@ VaultLock is a secure, offline password manager built with Python and PyQt6/QML,
 
 ### Prerequisites
 1. Python 3.10+
+
 2. Git
 
 ### Setup Steps
@@ -41,4 +44,5 @@ VaultLock is a secure, offline password manager built with Python and PyQt6/QML,
 ```bash
 git clone https://github.com/Nirjar26/VaultLock---Password-Manager.git
 cd VaultLock---Password-Manager
+
 
