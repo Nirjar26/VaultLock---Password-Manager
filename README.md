@@ -33,8 +33,8 @@ Built for engineers who want to understand exactly what's protecting their crede
 
 ## ✦ Features
 
-| | Feature | Detail |
-|---|---|---|
+| Feature | Detail 
+|---|---|
 | **Zero-knowledge architecture** | Master password never stored or transmitted |
 | **AES-256 encryption** | Fernet (AES-128-CBC + HMAC-SHA256) for all vault data |
 | **Argon2id key derivation** | PHC winner — resistant to GPU brute-force & side-channel attacks |
