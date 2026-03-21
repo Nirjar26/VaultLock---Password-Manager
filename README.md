@@ -35,15 +35,15 @@ Built for engineers who want to understand exactly what's protecting their crede
 
 | | Feature | Detail |
 |---|---|---|
-| 🛡️ | **Zero-knowledge architecture** | Master password never stored or transmitted |
-| 🔒 | **AES-256 encryption** | Fernet (AES-128-CBC + HMAC-SHA256) for all vault data |
-| 🧂 | **Argon2id key derivation** | PHC winner — resistant to GPU brute-force & side-channel attacks |
-| 📋 | **Auto-clear clipboard** | Copied passwords purge from clipboard automatically |
-| 🖼️ | **Smart logo fetching** | SVG/PNG logos fetched and cached per saved site |
-| 🗂️ | **Organization** | Folders, favorites, and real-time fuzzy search |
-| 💾 | **Local SQLite backend** | Your data stays on your machine — always |
-| 🪟 | **Windows 11 Fluent UI** | Native Mica Alt backdrop, dark mode, smooth QML transitions |
-| 📦 | **Portable build** | Single `.exe` via PyInstaller — no Python required to run |
+| **Zero-knowledge architecture** | Master password never stored or transmitted |
+| **AES-256 encryption** | Fernet (AES-128-CBC + HMAC-SHA256) for all vault data |
+| **Argon2id key derivation** | PHC winner — resistant to GPU brute-force & side-channel attacks |
+| **Auto-clear clipboard** | Copied passwords purge from clipboard automatically |
+| **Smart logo fetching** | SVG/PNG logos fetched and cached per saved site |
+| **Organization** | Folders, favorites, and real-time fuzzy search |
+| **Local SQLite backend** | Your data stays on your machine — always |
+| **Windows 11 Fluent UI** | Native Mica Alt backdrop, dark mode, smooth QML transitions |
+| **Portable build** | Single `.exe` via PyInstaller — no Python required to run |
 
 ---
 
@@ -177,23 +177,6 @@ Full list with pinned versions in [`requirements.txt`](requirements.txt).
 - [ ] Vault export with encrypted backup format
 - [ ] Linux & macOS support (platform-native UI fallback)
 - [ ] Auto-lock on idle timeout
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome, especially in the security and cryptography layer. Please open an issue before submitting a PR that touches `encryption_service.py`.
-
-```bash
-# Fork → clone → branch
-git checkout -b feat/your-feature
-
-# Commit with conventional commits
-git commit -m "feat: add TOTP generation support"
-
-# Push and open a PR
-git push origin feat/your-feature
-```
 
 ---
 
